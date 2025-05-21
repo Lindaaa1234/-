@@ -1,0 +1,39 @@
+.form{
+    width: 40%;
+    
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left : 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 30px;
+}
+.form input{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid white;
+    color: blueviolet;
+}
+.form .links{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: 0 auto;
+}
+.form .links a{
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 1.5rem;
+}
+
