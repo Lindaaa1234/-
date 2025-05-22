@@ -8,6 +8,7 @@ var cartDiv = document.querySelector('#cart div')
 
 
 
+
 if(localStorage.getItem('firstname')){
     link1.style.display = 'none'
      link2.style.display = 'block'
@@ -44,6 +45,7 @@ function drow () {
             </div>
         <button onclick=Delete(${item.id})>delet cart</button>
         </div>
+        
             `
         )
     })
@@ -51,11 +53,19 @@ function drow () {
 }
 drow()
 
+
+
+  
+
+
+
+
+
+
 function Delete(id){
    var index = data.map((e)=>{
     return e.id
    }).indexOf(id)
     data.splice(index , 1)
-    drow(data)
-    
+    drow(data) 
 } 
